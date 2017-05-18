@@ -25,10 +25,8 @@ export default class LoginForm extends Component {
 	                      'Content-Type': 'application/json',
 	                    },
 	                    body: JSON.stringify({
-	                    	// email: this.state.email,
-	                    	// password: this.state.password
-	                        email: 'admin@com',
-	                        password: 'admin@com'
+	                    	email: this.state.email,
+	                    	password: this.state.password
 	                    })
 	                  });
 	    let res = await response.text();
