@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import { NavigatorIOS,
          StyleSheet, 
@@ -6,17 +6,25 @@ import { NavigatorIOS,
          View } from 'react-native';
 
 import Splash from './Splash';
-import Login from './src/components/Login/Login';
-import Main from './src/components/Main';
+// import Login from './src/components/Login/Login';
 
-export default class App extends React.Component {
+// import TabView from './TabView';
+import TabViewExample from './TabViewExample';
+// var Login = require('./TabView');
+// import Main from './src/components/Main';
+
+export default class App extends Component {
+
   render() {
     return (
-      <NavigatorIOS 
-        initialRoute = {{
-          title: 'Github Networking'
-          component: Main
-        }}/>
+      // <NavigatorIOS 
+      //   initialRoute = {{
+      //     component: Main,
+      //     title: 'Github Networking',
+      //   }}
+      //   style={{flex: 1}}
+      //   />
+        <TabViewExample />
         // <Login />
         // <Main />
     );

@@ -1,9 +1,10 @@
-var React = require('react-native');
-
-import { NavigatorIOS,
-         StyleSheet, 
-         Text, 
-         View } from 'react-native';
+import React, { Component } from 'react';
+import {
+	NavigatorIOS,
+    StyleSheet, 
+    Text, 
+    View 
+	 } from 'react-native';
 
 class Main extends React.Component {
 	render() {
