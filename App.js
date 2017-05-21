@@ -8,9 +8,10 @@ import { NavigatorIOS,
 import Splash from './Splash';
 // import Login from './src/components/Login/Login';
 
-// import TabView from './TabView';
-import TabViewExample from './TabViewExample';
+import TabView from './TabView';
 // var Login = require('./TabView');
+
+// import TabViewExample from './TabViewExample';
 // import Main from './src/components/Main';
 
 export default class App extends Component {
@@ -24,7 +25,8 @@ export default class App extends Component {
       //   }}
       //   style={{flex: 1}}
       //   />
-        <TabViewExample />
+        // <TabViewExample />
+        <TabView />
         // <Login />
         // <Main />
     );
